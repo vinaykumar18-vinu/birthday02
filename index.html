@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Suprithaa!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="landing">
+        <h2>Welcome! Answer these questions to enter:</h2>
+        <div class="question">
+            <label>1. I have keys but open no locks. I have space but no room. You can enter, but you can't go outside. What am I?</label>
+            <input type="text" id="q1" placeholder="Your answer">
+        </div>
+        <div class="question">
+            <label>2. Which place we guys spend more time?</label>
+            <input type="text" id="q2" placeholder="Your answer">
+        </div>
+        <button onclick="checkAnswers()">Submit Answers</button>
+        <p id="feedback"></p>
+    </div>
+    <div id="message" style="display:none;">
+        <div id="birthday-text">Happy Birthday Suprithaa! 🎉</div>
+        <audio autoplay>
+            <source src="https://www.soundjay.com/misc/sounds/happy-birthday-song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
